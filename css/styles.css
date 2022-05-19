@@ -570,6 +570,8 @@ svg {
       background-color: #4A5BCF; }
       .services .container-fluid .community .individual img {
         margin-left: -30px; }
+      .services .container-fluid .community .individual svg {
+        min-height: 200px; }
     @media (max-width: 576px) {
       .services .container-fluid .community {
         padding: 0; } }
@@ -982,8 +984,5 @@ a.app-btn:hover {
 @media (min-width: 992px) and (max-width: 993px) {
   .navbar-expand-lg .navbar-toggler {
     display: none; } }
-.individual svg {
-  min-height: 200px;
-  background: red; }
 
 /*# sourceMappingURL=styles.css.map */
