@@ -982,5 +982,8 @@ a.app-btn:hover {
 @media (min-width: 992px) and (max-width: 993px) {
   .navbar-expand-lg .navbar-toggler {
     display: none; } }
+.individual svg {
+  min-height: 200px;
+  background: red; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -166,35 +166,35 @@ gsap.from('.animate-bg.other',{
 
 /// //SVG illustrations animation
 ///////////eye/////////////////
-// var blink = gsap.timeline({	
-// 	repeat:-1, 	repeatDelay:5,	
-// 	scrollTrigger: {trigger:'#services',start: 'top center',}
-// })
-// blink.to(".blink", {delay:2,scaleY:-1,y:20,	transformOrigin:"100% 100%",ease: "power1.inOut",duration:0.1,})
-// .to(".blink", {	scaleY:1,y:'+=-20',transformOrigin:"100% 100%",ease: "power1.inOut",duration:0.1,})
+var blink = gsap.timeline({	
+	repeat:-1, 	repeatDelay:5,	
+	scrollTrigger: {trigger:'#services',start: 'top center',}
+})
+blink.to(".blink", {delay:2,scaleY:-1,y:20,	transformOrigin:"100% 100%",ease: "power1.inOut",duration:0.1,})
+.to(".blink", {	scaleY:1,y:'+=-20',transformOrigin:"100% 100%",ease: "power1.inOut",duration:0.1,})
 
-// ///////////lama/////////////////
-// var lama = gsap.timeline({	
-// 	repeat:-1, 	repeatDelay:3,	
-// 	scrollTrigger: {trigger:'#educapps',start: 'top center',}
-// })
+///////////lama/////////////////
+var lama = gsap.timeline({	
+	repeat:-1, 	repeatDelay:3,	
+	scrollTrigger: {trigger:'#educapps',start: 'top center',}
+})
 
-// lama.from(".ear", {svgOrigin:"46 73", rotate:-45, ease: "power1.inOut", duration:1,},0)
-// .to(".noise", {scale:1.5, ease: "power1.inOut", duration:1,},0)
-// .to(".noise", {scale:1, ease: "power1.inOut", duration:1,},1)
-// .from(".head", {rotate:-5, transformOrigin:"-20% 100%",ease: "power1.inOut", duration:1,},1)
-// .to(".ear", {svgOrigin:"46 73", rotate:-45, ease: "power1.inOut", duration:1,},1)
+lama.from(".ear", {svgOrigin:"46 73", rotate:-45, ease: "power1.inOut", duration:1,},0)
+.to(".noise", {scale:1.5, ease: "power1.inOut", duration:1,},0)
+.to(".noise", {scale:1, ease: "power1.inOut", duration:1,},1)
+.from(".head", {rotate:-5, transformOrigin:"-20% 100%",ease: "power1.inOut", duration:1,},1)
+.to(".ear", {svgOrigin:"46 73", rotate:-45, ease: "power1.inOut", duration:1,},1)
 
-// ///////////butterfly//////
+///////////butterfly//////
 
-// var wings = gsap.timeline({	
-// 	repeat:-1, 	repeatDelay:4,	
-// 	scrollTrigger: {trigger:'#services',start: 'top center',}
-// })
-// wings.from(".wings", {fill:'#F59688', ease: "power1.inOut", duration:1,},0)
-// .from(".dot", {transformOrigin:'71% 38%', scale:0.5,  ease: "power1.inOut", duration:1,},0)
-// .to(".dot", {transformOrigin:'71% 38%', scale:0.5, fill:'#8F3083', ease: "power1.inOut", duration:1,},1)
-// .to(".wings", {fill:'#F59688', ease: "power1.inOut", duration:1,},1)
+var wings = gsap.timeline({	
+	repeat:-1, 	repeatDelay:4,	
+	scrollTrigger: {trigger:'#services',start: 'top center',}
+})
+wings.from(".wings", {fill:'#F59688', ease: "power1.inOut", duration:1,},0)
+.from(".dot", {transformOrigin:'71% 38%', scale:0.5,  ease: "power1.inOut", duration:1,},0)
+.to(".dot", {transformOrigin:'71% 38%', scale:0.5, fill:'#8F3083', ease: "power1.inOut", duration:1,},1)
+.to(".wings", {fill:'#F59688', ease: "power1.inOut", duration:1,},1)
 
 ///////////////illustration animation ends//////////////////
 
